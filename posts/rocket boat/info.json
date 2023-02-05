@@ -1,0 +1,12 @@
+{
+    "path": "posts\\rocket boat",
+    "title": "Rocket Boat",
+    "desc": "A 3D Printed boat hull that fits a C size rocket engine.",
+    "tags": [
+        "cad",
+        "3d-printing"
+    ],
+    "date": "March 2018",
+    "img": true,
+    "content": true
+}

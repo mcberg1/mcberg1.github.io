@@ -1,0 +1,15 @@
+{
+    "path": "posts\\iot-duck",
+    "title": "IoT Ducks",
+    "desc": "A cozy lamp with a unique way to stay connected over long distances.",
+    "tags": [
+        "programming",
+        "cad",
+        "electrical",
+        "iot",
+        "pcb"
+    ],
+    "date": "February 2022",
+    "img": true,
+    "content": true
+}

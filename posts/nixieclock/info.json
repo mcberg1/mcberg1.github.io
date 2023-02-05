@@ -1,0 +1,14 @@
+{
+    "path": "posts\\nixieclock",
+    "title": "Nixie Tube Clock",
+    "desc": "A modern clock using IN-16 nixie tubes, getting the time from an NTP server.",
+    "tags": [
+        "programming",
+        "cad",
+        "electrical",
+        "laser-cutting"
+    ],
+    "date": "July 2021",
+    "img": true,
+    "content": true
+}

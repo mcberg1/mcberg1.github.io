@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Lexend%20Deca:400,300,700");
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+body {
+    /* text-transform: lowercase; */
+    background: #2d2d2d;
+    font-family: 'Lexend Deca' !important;
+}
+
+header {
+    background-color: hsl(0, 0%, 92%);
+
+}
+
+.text-dark {
+    color: #2d2d2d;
+}
+
+.nav-link:hover {
+    color: #5B7B7A;
+
+}
+
+.text-second {
+    color: #E34A6F;
+}
+
+.text-light {
+    color: #EBEBEB;
+}
+
+.text-dull {
+    color: #505050;
+}
+
+
+.header-img {
+    /* border: 3px solid #ebebeb; */
+/* border-radius: 2em; */
+}
+
+.album {
+    background: #1f1f1f;
+
+}
+
+.post-container {
+    background: #1f1f1f;
+}
+
+.card {
+    background: #2d2d2d;
+    color: #ebebeb;
+    transition: outline .125s;
+    outline: 1px solid transparent;
+
+}
+
+.card:hover {
+    outline: 3px solid #5B7B7A;
+
+}
+
+#filterinfo {
+    /* border: 2px solid #5B7B7A;    */
+    border-radius: 10px;
+}
+
+.social-button {
+    color: #5B7B7A;
+    outline: 1px solid #5B7B7A;
+    border-radius: 10px;
+    transition: color .125s;
+}
+
+.social-button:hover {
+    color: #E34A6F;
+    outline: 1px solid #E34A6F;
+}
+
+hr {
+    border-color: #5B7B7A;
+}
+
+.text-teal {
+    color: #5B7B7A;
+}
+
+.tagbtn {
+    color: inherit;
+    border: 1px solid #ebebeb;
+}
+
+.tagbtn:hover {
+    border: 1px solid #5B7B7A;
+    background-color: #5B7B7A;
+}

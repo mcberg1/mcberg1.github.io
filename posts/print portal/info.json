@@ -1,0 +1,13 @@
+{
+    "path": "posts\\print portal",
+    "title": "Print Portal",
+    "desc": "A super simple in-browser interface for 3D printing.",
+    "tags": [
+        "programming",
+        "iot",
+        "3d-printing"
+    ],
+    "date": "February 2021",
+    "img": true,
+    "content": true
+}

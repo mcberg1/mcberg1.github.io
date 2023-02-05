@@ -1,0 +1,9 @@
+{
+    "path": "posts\\airsoftgun",
+    "title": "Custom HPA Airsoft Gun",
+    "desc": "Designed from the ground up, a sleek airsoft gun that runs on compressed air.",
+    "tags": ["programming", "pcb", "cad", "electrical", "machining"],
+    "date": "June 2021",
+    "img": true,
+    "content": true
+}

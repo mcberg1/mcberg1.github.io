@@ -1,0 +1,14 @@
+{
+    "path": "posts\\baja daq",
+    "title": "Baja Data Aquisition Board",
+    "desc": "A custom data aquisition system for the SD Mines Baja Team",
+    "tags": [
+        "programming",
+        "pcb",
+        "cad",
+        "electrical"
+    ],
+    "date": "August 2022",
+    "img": "header.png",
+    "content": true
+}

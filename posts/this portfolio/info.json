@@ -1,0 +1,11 @@
+{
+    "path": "posts\\this portfolio",
+    "title": "This Website",
+    "desc": "This is my portfolio site! I'm writing most of it by hand, and it's currently a work in progress... There are missing features, bugs, typos, and much more!",
+    "tags": [
+        "programming"
+    ],
+    "date": "January 2023",
+    "img": false,
+    "content": true
+}

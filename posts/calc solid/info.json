@@ -1,0 +1,12 @@
+{
+    "path": "posts\\calc solid",
+    "title": "Solid Revolution",
+    "desc": "A representation of a revolved solid of a function for Calc BC, machined from 6061.",
+    "tags": [
+        "cad",
+        "machining"
+    ],
+    "date": "November 2020",
+    "img": true,
+    "content": true
+}
