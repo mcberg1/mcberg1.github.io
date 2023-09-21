@@ -1,0 +1,14 @@
+{
+    "path": "posts\\ppap payload",
+    "title": "2018 Payload (ULA Rocket Program)",
+    "desc": "A rocket payload for the ULA intern rocket that navigates towards a GPS waypoint",
+    "tags": [
+        "cad",
+        "3d-printing",
+        "electrical",
+        "programming"
+    ],
+    "date": "May 2018",
+    "img": true,
+    "content": false
+}

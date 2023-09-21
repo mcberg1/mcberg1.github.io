@@ -1,0 +1,11 @@
+{
+    "path": "posts\\ball tracker",
+    "title": "Computer Vision Ball Tracker",
+    "desc": "A demonstration on my bedroom floor of a computer vision driver assistant for FIRST robotics.",
+    "tags": [
+        "programming"
+    ],
+    "date": "June 2020",
+    "img": true,
+    "content": false
+}

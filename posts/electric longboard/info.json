@@ -1,0 +1,15 @@
+{
+    "path": "posts\\electric longboard",
+    "title": "Electric Longboard",
+    "desc": "A powerful motorized longboard sporting a brushless motor, VESC, and 40 18650 lithium cells.",
+    "tags": [
+        "cad",
+        "3d-printing",
+        "electrical",
+        "machining",
+        "programming"
+    ],
+    "date": "December 2018",
+    "img": true,
+    "content": false
+}

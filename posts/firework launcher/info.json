@@ -1,0 +1,15 @@
+{
+    "path": "posts\\firework launcher",
+    "title": "IoT Firework Launcher",
+    "desc": "A system to wirelessly launch fireworks from a smartphone (waiting on better picture)",
+    "tags": [
+        "cad",
+        "laser-cutting",
+        "electrical",
+        "programming",
+        "iot"
+    ],
+    "date": "June 2021",
+    "img": true,
+    "content": false
+}

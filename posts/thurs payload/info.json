@@ -1,0 +1,13 @@
+{
+    "path": "posts\\thurs payload",
+    "title": "2016 Payload (ULA Rocket Program)",
+    "desc": "A rocket payload for the ULA intern rocket, comparing temperature sensor response times, and providing a reliable recovery system",
+    "tags": [
+        "cad",
+        "electrical",
+        "programming"
+    ],
+    "date": "May 2016",
+    "img": true,
+    "content": false
+}

@@ -40,8 +40,26 @@ header {
 
 
 .header-img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
     /* border: 3px solid #ebebeb; */
 /* border-radius: 2em; */
+
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+.vl {
+    border-left: 2px solid;
+    border-color: #5B7B7A;
+    height: 500px;
+  }
+
+.content-img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 .album {

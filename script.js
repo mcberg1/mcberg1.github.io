@@ -5,13 +5,13 @@ lastSearch = "";
 
 
 
-function loadPost(){
+function loadPost() {
     console.log("eee");
 }
 
 
 function tagsearch(tag) {
-    filterTag = "<div class=\"btn btn-sm btn-outline-secondary\" onclick=\"tagsearch('"+tag+"')\">"+tag+"</div>";
+    filterTag = "<div class=\"btn btn-sm btn-outline-secondary\" onclick=\"tagsearch('" + tag + "')\">" + tag + "</div>";
     if (lastSearch == tag) {
         document.getElementById("filterinfo").innerHTML = "Filter: ";
         var divsToHide = document.getElementsByClassName("col"); //divsToHide is an array
@@ -110,20 +110,28 @@ function buildPost(postJson) {
     console.log(postJson.title);
     container = document.createElement("div");
     container.className = "card border-0 " + postJson.tags.join(" ");
-    outer = document.createElement("div");
-    outer.className = ("col");
-    outer.classList.add("post-card");
+    outerDiv = document.createElement("div");
 
-    if(typeof postJson.img === 'string' || postJson.img instanceof String){
+
+
+    outerDiv.className = ("col");
+    outerDiv.classList.add("post-card");
+    outer = document.createElement("a");
+    outer.setAttribute("href", "#0");
+    if (postJson.content) {
+        outer.setAttribute("href", postJson.path);
+    }
+
+    if (typeof postJson.img === 'string' || postJson.img instanceof String) {
         img = document.createElement("img");
-        img.src = "./" + postJson.path + "/img/"+ postJson.img;
+        img.src = "./" + postJson.path + "/img/" + postJson.img;
         console.log(img.src)
         img.className = "bd-placeholder-img card-img-top";
         img.setAttribute("width", "100%");
         img.setAttribute("height", "225");
         img.setAttribute("style", "object-fit: cover; background: transparent;")
         container.appendChild(img);
-    }else if (postJson.img) {
+    } else if (postJson.img) {
         img = document.createElement("img");
         img.src = "./" + postJson.path + "/img/header.jpg";
         console.log(img.src)
@@ -148,27 +156,31 @@ function buildPost(postJson) {
     lowerContainer = document.createElement("div");
     lowerContainer.className = "d-flex justify-content-between align-items-center";
     tags = document.createElement("div");
+    emptyA = document.createElement("a");
+    emptyA.setAttribute("href", "#0");
+    tags.appendChild(emptyA);
     tags.className = "tags-group";
     for (tagId in postJson.tags) {
-        outer.classList.add(postJson.tags[tagId]);
+        outerDiv.classList.add(postJson.tags[tagId]);
         text = document.createTextNode(postJson.tags[tagId]);
         tag = document.createElement("div");
         tag.className = "btn btn-sm btn-outline-secondary my-1 mx-1";
         tag.setAttribute("onclick", "tagsearch(\"" + postJson.tags[tagId] + "\")");
         tag.appendChild(text);
-        tags.appendChild(tag);
+        emptyA.appendChild(tag);
     }
     lowerContainer.appendChild(tags);
     date = document.createElement("small");
     date.className = "text-teal mx-1";
     textNode = document.createTextNode(postJson.date);
-    outer.setAttribute("data-date", Date.parse(new Date(postJson.date)));
+    outerDiv.setAttribute("data-date", Date.parse(new Date(postJson.date)));
     date.appendChild(textNode);
     lowerContainer.appendChild(date);
     body.appendChild(lowerContainer);
     container.appendChild(body);
     outer.appendChild(container);
-    postContainer.appendChild(outer);
+    outerDiv.appendChild(outer);
+    postContainer.appendChild(outerDiv);
     // ready = true;
     sortPosts();
 }

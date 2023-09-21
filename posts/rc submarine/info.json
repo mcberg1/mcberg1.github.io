@@ -1,0 +1,15 @@
+{
+    "path": "posts\\rc submarine",
+    "title": "Remote Control Submarine",
+    "desc": "A PID depth controlled submarine for ME265, Product Design and Development.",
+    "tags": [
+        "cad",
+        "3d-printing",
+        "electrical",
+        "pcb",
+        "programming"
+    ],
+    "date": "January 2023",
+    "img": true,
+    "content": false
+}

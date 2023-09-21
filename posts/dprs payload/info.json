@@ -1,0 +1,14 @@
+{
+    "path": "posts\\dprs payload",
+    "title": "2017 Payload (ULA Rocket Program)",
+    "desc": "A rocket payload for the ULA intern rocket, measuring energy harvesting techniques",
+    "tags": [
+        "cad",
+        "3d-printing",
+        "electrical",
+        "programming"
+    ],
+    "date": "May 2017",
+    "img": true,
+    "content": false
+}
