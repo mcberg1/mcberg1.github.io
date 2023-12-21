@@ -1,7 +1,7 @@
 {
     "path": "posts\\2019 payload",
     "title": "2019 Payload (ULA Rocket Program)",
-    "desc": "A rocket payload for the ULA intern rocket that measures greenhous gas concentration",
+    "desc": "A rocket payload for the ULA intern rocket that measures greenhouse gas concentration",
     "tags": [
         "cad",
         "3d-printing",
