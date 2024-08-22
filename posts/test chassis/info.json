@@ -1,0 +1,15 @@
+{
+    "path": "posts\\test-chassis",
+    "title": "Robot Test Chassis",
+    "desc": "A mecanum driven robot with various localization technologies.",
+    "tags": [
+        "programming",
+        "cad",
+        "electrical",
+        "robotics",
+        "pcb"
+    ],
+    "date": "June 2024",
+    "img": true,
+    "content": false
+}
