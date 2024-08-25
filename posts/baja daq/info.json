@@ -1,7 +1,7 @@
 {
     "path": "posts\\baja daq",
     "title": "Baja Data Aquisition Board",
-    "desc": "A custom data aquisition system for the SD Mines Baja Team",
+    "desc": "A first iteration custom data acquisition system for the SD Mines Baja Team to log dynamic vehicle parameters. Data from this device at competition is used in the following year's design cycle.",
     "tags": [
         "programming",
         "pcb",
