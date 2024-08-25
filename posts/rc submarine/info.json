@@ -1,7 +1,7 @@
 {
     "path": "posts\\rc submarine",
     "title": "Remote Control Submarine",
-    "desc": "A PID depth controlled submarine for ME265, Product Design and Development.",
+    "desc": "An RC submarine with closed-loop (PID) depth control and brushless propulsion. Built with a custom PCB, 3D printed end caps, and an acrylic center hull.",
     "tags": [
         "cad",
         "3d-printing",
