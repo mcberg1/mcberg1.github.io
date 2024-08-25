@@ -1,7 +1,7 @@
 {
     "path": "posts\\test chassis",
     "title": "Robot Test Chassis (In Progress)",
-    "desc": "A mecanum driven robot with various localization technologies.",
+    "desc": "A mecanum driven robot with various localization technologies. Planned to employ computer vision, UWB trilateration, wheel odometry, and ROS integration.",
     "tags": [
         "programming",
         "cad",
