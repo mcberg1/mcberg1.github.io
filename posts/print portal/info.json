@@ -1,7 +1,7 @@
 {
     "path": "posts\\print portal",
     "title": "Print Portal",
-    "desc": "A super simple in-browser interface for 3D printing.",
+    "desc": "A super simple in-browser interface for 3D printing developed in Node.js intended to simplify print lab usage.",
     "tags": [
         "programming",
         "iot",
