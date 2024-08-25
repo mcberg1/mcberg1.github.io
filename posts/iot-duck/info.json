@@ -1,7 +1,7 @@
 {
     "path": "posts\\iot-duck",
     "title": "IoT Ducks",
-    "desc": "A cozy lamp with a unique way to stay connected over long distances.",
+    "desc": "A hacked Amazon lamp full of WS18b20 LEDs, with custom firmware for connectivity to an AWS hosted server. Multiple lamps can cross-communicate through this server.",
     "tags": [
         "programming",
         "cad",
