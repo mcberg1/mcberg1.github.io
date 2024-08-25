@@ -1,7 +1,7 @@
 {
     "path": "posts\\ball tracker",
     "title": "Computer Vision Ball Tracker",
-    "desc": "A demonstration on my bedroom floor of a computer vision driver assistant for FIRST robotics.",
+    "desc": "A demonstration on my bedroom floor of a computer vision driver assistant for FIRST robotics using an OpenMV H7.",
     "tags": [
         "programming",
         "robotics"
