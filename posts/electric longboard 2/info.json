@@ -1,0 +1,16 @@
+{
+    "path": "posts\\electric longboard 2",
+    "title": "Electric Longboard v2",
+    "desc": "A revision of the previous longboard project, using new knowledge of mechanical and electrical design. This version has the battery mounted by integral leaf springs, a smaller motor and mount, and more safety features. Missing a completed image.",
+    "tags": [
+        "cad",
+        "3d-printing",
+        "electrical",
+        "machining",
+        "programming",
+        "mechanical"
+    ],
+    "date": "January 2025",
+    "img": true,
+    "content": false
+}

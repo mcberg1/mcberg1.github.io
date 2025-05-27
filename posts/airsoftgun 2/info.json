@@ -1,0 +1,9 @@
+{
+    "path": "posts\\airsoftgun 2",
+    "title": "Custom HPA Airsoft Gun v2",
+    "desc": "A work in progress, second iteration of the previous airsoft gun project, with an improved \"bolt\" system, integral chronograph, automatic swtiching between fire modes based on target distance. Additionally changes to the design for fatigue life, quiteness, and other improvements.",
+    "tags": ["programming", "pcb", "cad", "electrical", "machining", "mechanical"],
+    "date": "May 2024",
+    "img": true,
+    "content": false
+}

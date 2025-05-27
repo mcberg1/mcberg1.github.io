@@ -1,0 +1,12 @@
+{
+    "path": "posts\\polar plotter",
+    "title": "Polar Coordinate Whiteboard Plotter",
+    "desc": "A wall mounted CNC plotter with R,θ axes, with a compact stepper linear actuator for rapid R axis movements, and herringbone gears to support the rotary whiteboard table. Currently a work in progress",
+    "tags": [
+        "programming",
+        "robotics"
+    ],
+    "date": "November 2024",
+    "img": false,
+    "content": false
+}

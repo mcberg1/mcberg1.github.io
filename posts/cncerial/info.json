@@ -1,0 +1,9 @@
+{
+    "path": "posts\\cncerial",
+    "title": "NC Program Transmission Utility",
+    "desc": "This web app uses the WebSerial API to provide an easy interface for transmitting G-code over RS232 adaptors for CNC machines with a DNC interface. This runs as a static webpage built on Bootstrap 5 as a replacement for adware OneCNC.",
+    "tags": ["programming", "machining"],
+    "date": "March 2025",
+    "img": true,
+    "content": false
+}

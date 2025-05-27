@@ -1,0 +1,9 @@
+{
+    "path": "posts\\guage logger",
+    "title": "High Speed Strain Guage Logger",
+    "desc": "This board provides a solution for logging 6 channels of strain guages at up to 30kHz for impact load case analysis. It employs a multi-channel 24 bit ADC, precision resistors forming 6 individual wheatstone bridges, precision voltage supplies, and an RP2040 based logging system",
+    "tags": ["programming", "pcb", "electrical", "mechanical"],
+    "date": "December 2024",
+    "img": true,
+    "content": false
+}

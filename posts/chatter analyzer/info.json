@@ -1,0 +1,15 @@
+{
+    "path": "posts\\chatter analyzer",
+    "title": "Embedded FFT Chatter Analyzer",
+    "desc": "Embedded system for realtime adjustment of spindle speed to eliminate chatter based on FFT analysis of the harmonics of a spindle-mounted accelerometer. Entry in the Braun Student Inventor 2025 Award Competition.",
+    "tags": [
+        "electrical",
+        "machining",
+        "programming",
+        "mechanical",
+        "dsp"
+    ],
+    "date": "February 2025",
+    "img": true,
+    "content": false
+}
